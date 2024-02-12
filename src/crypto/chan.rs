@@ -4,7 +4,6 @@ struct SysKey {
     #[allow(unused)]
     value: [i8; 20]
 }
-
 pub struct KeysDb {
     _prod: Vec<SysKey>,
     _title: Vec<SysKey>
@@ -23,7 +22,7 @@ impl KeysDb {
         let mut has_title = false;
 
         for key_path in key_files {
-            let title = String::from("");
+            let title = "".into();
             let key: [i8; 20] = [0; 20];
 
             if key_path.contains("prod.keys") {
@@ -34,12 +33,8 @@ impl KeysDb {
                 self._title.push(SysKey{ name : title, value : key });
             }
         }
-        if !has_prod {
-            panic!("")
-        }
-        if !has_title {
+        if !has_prod || has_title {
             panic!("")
         }
     }
 }
-

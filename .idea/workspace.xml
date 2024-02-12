@@ -13,9 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="789c64b4-247d-4bd9-a028-1996b871fe8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ione.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ione.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crypto/chan.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/crypto/chan.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +103,7 @@
       <workItem from="1707608159942" duration="515000" />
       <workItem from="1707608719293" duration="2521000" />
       <workItem from="1707611338916" duration="42000" />
+      <workItem from="1707754729304" duration="1059000" />
     </task>
     <servers />
   </component>
